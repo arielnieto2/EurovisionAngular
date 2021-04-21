@@ -1,0 +1,26 @@
+  <div class="main-container">
+<h1 class="title">Cities</h1>
+  <table class="table">
+  <thead>
+    <tr>
+      <th scope="col">Id</th>
+      <th scope="col">Name</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let city of contenido">
+      <td>
+        {{city.id}}
+      </td>
+      <td >
+        {{city.cityName}}
+      </td>
+    </tr>
+  </tbody>
+</table>
+<mat-paginator [length]="length"
+               [pageSize]="page_size"
+               [pageSizeOptions]="[5,10,15]"
+               (page)="pageEvent($event)">
+</mat-paginator>
+</div>

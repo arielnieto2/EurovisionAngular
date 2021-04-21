@@ -1,1 +1,27 @@
 /* You can add global styles to this file, and also import other style files */
+.img-header{
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 40%;
+}
+.main-container{
+margin-top: 19rem;
+max-width: 90%;
+margin-left: 5rem;
+}
+.title{
+font-size: 30px !important;
+font-family: auto !important;
+font-weight: bold !important;
+}
+
+.welcomeLabel{
+font-size: -webkit-xxx-large !important;
+font-family: auto !important;
+font-weight: bold !important;
+text-align: center;
+}
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

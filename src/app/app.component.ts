@@ -6,5 +6,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'eurovision-angular';
+  // page_size: number = 5
+  // page_number: number = 1
 }
